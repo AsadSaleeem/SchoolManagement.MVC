@@ -15,6 +15,10 @@ namespace SchoolManagement.MVC.Models
 
         public DbSet<Student> Students { get; set; }
 
+        public DbSet<Classes> Classes { get; set; }
+
+        public DbSet<Enrollments> Enrollments { get; set; } 
+
 
     
     }

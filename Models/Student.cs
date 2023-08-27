@@ -2,7 +2,7 @@
 
 namespace SchoolManagement.MVC.Models
 {
-    public class Student
+    public partial class Student
     {
         [Key]
         public int Id { get; set; }
@@ -16,3 +16,4 @@ namespace SchoolManagement.MVC.Models
 
     }
 }
+    
