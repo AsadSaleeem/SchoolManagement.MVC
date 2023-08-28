@@ -10,6 +10,7 @@ using SchoolManagement.MVC.Models;
 
 namespace SchoolManagement.MVC.Controllers
 {
+    [Authorize]
     public class CoursesController : Controller
     {
         private readonly ApplicationDbContext _context;
